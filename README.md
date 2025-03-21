@@ -1,6 +1,7 @@
 # <span style="font-family: Arial; font-size: 24px;">Austim_P</span>
 
-<p style="font-family: Arial; font-size: 16px;">A machine learning model deployed using Streamlit to predict whether a person has autism based on given input features.</p>
+<p style="font-family: Arial; font-size: 16px;">A machine learning model deployed using Streamlit to predict whether a person has autism based on given input features.
+Up and running at https://autism-predictor.streamlit.app/</p>
 
 ## <span style="font-family: Arial; font-size: 20px;">Features</span>
 - Uses a trained ML model (`best_model.pkl`) for prediction.
