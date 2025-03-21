@@ -4,15 +4,15 @@ import pickle
 from sklearn.preprocessing import LabelEncoder
 
 # Load the model
-with open('Autism_P/best_model.pkl', 'rb') as file:
+with open('best_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
 # Load the encoder
-with open('Autism_P/encoders.pkl', 'rb') as file:
+with open('encoders.pkl', 'rb') as file:
     encoders = pickle.load(file)
 
 # Load the training data for feature information
-train_df = pd.read_csv('Autism_P/datasets/train.csv')
+train_df = pd.read_csv('datasets/train.csv')
 
 # Preprocessing function
 def preprocess_data(df, encoders):
